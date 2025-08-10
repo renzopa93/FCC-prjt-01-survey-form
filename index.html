@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="survey-container">
+    <h1 id="title">WanderCampsite Experience Survey</h1>
+    <p id="description">Tell us about your experience with us so we can keep improving</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Full name: </label>
+      <input id="name" type="text" name="name" placeholder="Enter your name" required>
+      <label id="email-label" for="email">Email: </label>
+      <input id="email" type="email" name="email" placeholder="Enter your email" required>
+      <label id="phone-label" for="phone">Phone number: </label>
+      <input id="phone" type="tel" name="phone" placeholder="e.g. +32 123 456 789" required>
+      <label id="number-label" for="number">How many nights did you stay? </label>
+      <input id="number" type="number" name="number" min="1" max="30" placeholder="Number of nights" required>
+
+      <label for="dropdown">Which season did you visit?</label>
+        <select id="dropdown" name="season" required>
+          <option value="">-- Select a season --</option>
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="autumn">Autumn</option>
+          <option value="winter">Winter</option>
+        </select>
+      <fieldset>
+        <legend>How was your experience with us?</legend>
+        <label>
+          <input type="radio" name="experience" value="excellent" required>Excellent
+        </label>
+        <label>
+          <input type="radio" name="experience" value="good" required>Good
+        </label>
+        <label>
+          <input type="radio" name="experience" value="average" required>Average
+        </label>
+        <label>
+          <input type="radio" name="experience" value="poor" required>Poor
+        </label>  
+      </fieldset> 
+      <fieldset>
+        <legend>What did you enjoy the most about campsite?</legend>
+        <label>
+          <input type="checkbox" name="enjoyed" value="cleanliness">Cleanliness of the facilities
+        </label>
+        <label> 
+          <input type="checkbox" name="enjoyed" value="friendliness">Friendliness of the staff
+        </label>
+        <label>
+          <input type="checkbox" name="enjoyed" value="bathrooms">Conditions of the bathrooms/showers
+        </label>
+        <label>
+          <input type="checkbox" name="enjoyed" value="food">Food services
+        </label>
+        <label>
+          <input type="checkbox" name="enjoyed" value="campsite">Condition of the campsite
+        </label>
+        <label>
+          <input type="checkbox" name="enjoyed" value="activities">Available activities and entertainment
+        </label>
+        <label>
+          <input type="checkbox" name="enjoyed" value="security">Security of the campsite
+        </label>  
+      </fieldset>
+      <label for="comments">Any additional commments?</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="We'd love to hear your comments..."></textarea>  
+      <input type="submit" id="submit" value="Submit">
+    </form>  
+    </div>
+  </body>  
+</html> 

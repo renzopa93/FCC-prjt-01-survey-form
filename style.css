@@ -1,0 +1,110 @@
+h1{ color: #8B4513; 
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 2px 4px rgba(0, 50, 0, 0.5); /* Soft green shadow */
+  background: linear-gradient(to right, #A0522D, #8B4513); /* Brown gradient */
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin: 10px 5px 10px;
+  }
+
+p{ color: #5A3E36; 
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  background-color: #F4EFE7;
+  padding: 10px;
+  border-left: 5px solid #8B4513; 
+  width: 70%;
+  margin: 20px auto 10px;
+  border-radius: 5px; 
+  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FDF8F2; 
+  margin: 10px 5px 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}  
+.survey-container {
+ 
+  margin: 10px 5px 10px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 60%; 
+  max-width: 450px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+  width: 93%; 
+  display: block;
+  margin: 5px 5px; 
+  padding: 10px;
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  background: #F4EFE7;
+}
+textarea {
+  resize: vertical; 
+  height: 100px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 5px 5px;
+}
+label[for="dropdown"] {
+  display: block;
+  font-weight: bold;
+  margin: 10px 5px 5px;
+
+}
+fieldset {
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 5px 10px;
+  background: #F4EFE7; 
+}
+select {
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 5px 10px;
+  background: #F4EFE7;
+  width: 98% 
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+  accent-color: #6B8E23;
+}
+#submit {
+  width: 70%;
+  background: #6B8E23; 
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto 10px;
+  display: block;
+}
+#submit:hover {
+  background: #556B2F; 
+}
