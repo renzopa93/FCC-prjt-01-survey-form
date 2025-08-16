@@ -1,7 +1,7 @@
 # Survey Form – FreeCodeCamp Project
 
 This is my very first project from the **Responsive Web Design** certification at FreeCodeCamp.  
-I wanted to create a clean, simple, and responsive survey form using **only HTML and CSS**, without relying on frameworks.  
+I wanted to create a clean, simple, and responsive survey form using **only HTML and CSS**.  
 
 ## Features
 - Semantic HTML structure for accessibility.
@@ -18,4 +18,4 @@ This project was a great starting point. I learned:
 
 ## Personal Note
 As my **first ever project**, this was where I got comfortable writing raw HTML and CSS from scratch.  
-It’s simple, but I’m proud of it — and it motivated me to keep learning and building.
+It’s simple, but I’m proud of it, and it motivated me to keep learning and building.
