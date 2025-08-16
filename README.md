@@ -9,7 +9,7 @@ I wanted to create a clean, simple, and responsive survey form using **only HTML
 - Built-in validation using HTML5 attributes (no extra JavaScript).
 
 ## Live Demo
-See it live: [https://renzopa93.github.io/fcc-prjt-survey-form/](https://renzopa93.github.io/fcc-prjt-survey-form/)
+See it live: [https://renzopa93.github.io/FCC-prjt-01-survey-form/](https://renzopa93.github.io/FCC-prjt-01-survey-form/)
 
 ## What I Learned
 This project was a great starting point. I learned:
